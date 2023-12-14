@@ -1,0 +1,100 @@
+html{
+    font-family: 'popins', sans-serif;
+    background-color: rgb(205, 201, 201);
+}
+body{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.navbar h1{
+    font-size: xx-large;
+    font-family: cursive;
+    width: 30vw;
+    text-align: center;
+}
+.navbar ul{
+    width: 60vw;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    height: 1em;
+ } 
+a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: black;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 20px;
+    transition: all, 0.2s;
+}
+
+
+.content{
+    padding-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content>div{
+    width: 40%;
+    font-size: 14x;
+    font-family: cursive;
+    position: relative;
+    right: 5vw;
+}
+.firstLine{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.secondLine{
+    font-size: 1.2em;
+}
+
+.content img{
+    position: relative;
+    left: 5vw;
+    height: 40vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 7px 10px;
+}
+.button{
+    background-color: black;
+    font-family: cursive;
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 20vw;
+    padding: 10px 20px;
+}
+.button:hover{
+    background-color: grey;
+    border: 5px solid grey;
+
+}
+.button a:hover{
+    color: black;
+    
+}
+.social{
+   text-align: center;
+   padding: 8vh;
+
+}
+.social img{
+    height: 5vh;
+    position: relative;
+    right: 25vw;
+    top: 8vh;
+}
